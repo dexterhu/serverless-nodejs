@@ -9,7 +9,7 @@ module.exports.pairs = async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'The number of matching pair from ' + JSON.stringify(input) + ' is ' + pair.CalNoOfMatchingPairs(input)
+      message: 'The number of matching pairs from ' + JSON.stringify(input) + ' is ' + pair.CalNoOfMatchingPairs(input)
     }),
   };
 
