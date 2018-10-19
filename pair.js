@@ -10,7 +10,6 @@ var pair = {
 			var count = dic[a];
 			dic[a] = count + 1;
 		}
-		console.log(dic)
 		var totalPair = 0;
 		for(var key in dic)
 			totalPair += Math.floor(dic[key] / 2);
