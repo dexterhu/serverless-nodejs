@@ -1,5 +1,6 @@
 ## To run unit test
 ```
+npm install
 npm test
 ```
 Sample output:
