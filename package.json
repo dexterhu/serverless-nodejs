@@ -1,0 +1,28 @@
+{
+  "name": "transurban",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexterhu/serverless-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dexterhu/serverless-nodejs/issues"
+  },
+  "homepage": "https://github.com/dexterhu/serverless-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
