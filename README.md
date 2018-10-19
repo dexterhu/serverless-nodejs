@@ -5,7 +5,6 @@ npm test
 ```
 Sample output:
 ```
-Dexters-MacBook-Pro:transurban dexterhu$ npm test
 > transurban@1.0.0 test /Users/dexterhu/interview/transurban
 > mocha
 
@@ -18,9 +17,10 @@ Dexters-MacBook-Pro:transurban dexterhu$ npm test
       ✓ should return 3 for sample input [10, 20, 20, 10, 10, 30, 50, 10, 20]
       ✓ should return 4 for an array of 8 of the same number
       ✓ should return 4 for an array of 9 of the same number
+      ✓ should work for an array with float numbers that have the same numeric value
 
 
-  5 passing (7ms)
+  6 passing (7ms)
 ```
 
 ## To test against deployed url without API key
