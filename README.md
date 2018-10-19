@@ -34,10 +34,10 @@ Response is:
 {"message":"Forbidden"}
 ```
 
-## To test against deployed url with API key, please replace XXXXX with a real key
+## To test against deployed url with API key, please replace XXXXXXXXXXXXXXXXXXXXXXXXXX with a real key
 ```
 curl -H "Content-Type:application/json" \
--H "x-api-key:tzSzgajhF289XQ0QhzZij9Zr46KvfOXz5b0vGkvn" \
+-H "x-api-key:XXXXXXXXXXXXXXXXXXXXXXXXXX" \
 -X POST https://t0xclddayd.execute-api.us-east-1.amazonaws.com/dev/pairs \
 -d '{"array":[10, 20, 20, 10, 10, 30, 50, 10, 20]}'
 ```
